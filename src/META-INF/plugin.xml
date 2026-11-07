@@ -1,0 +1,12 @@
+<idea-plugin>
+  <id>com.luismartins.sublime-mariana-theme</id>
+  <name>Sublime Mariana Based</name>
+  <version>1.0.0</version>
+  <vendor>Luis Martins</vendor>
+  <description>Dark UI theme and editor color scheme based on Sublime Text's default Mariana scheme.</description>
+  <idea-version since-build="223"/>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="sublime-mariana" path="/Mariana.theme.json"/>
+  </extensions>
+</idea-plugin>
